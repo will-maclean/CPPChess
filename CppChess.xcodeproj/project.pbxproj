@@ -8,23 +8,68 @@
 
 /* Begin PBXBuildFile section */
 		BE3F3559284C800500CC0D48 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE3F3558284C800500CC0D48 /* main.cpp */; };
+		BE3F3562284C803200CC0D48 /* Tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE3F3560284C803200CC0D48 /* Tile.cpp */; };
+		BE3F3565284C804B00CC0D48 /* Piece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE3F3563284C804B00CC0D48 /* Piece.cpp */; };
+		BE3F3568284C806200CC0D48 /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE3F3566284C806200CC0D48 /* Board.cpp */; };
+		BE3F356B284C82DA00CC0D48 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE3F3569284C82DA00CC0D48 /* Game.cpp */; };
+		BE3F356E284C83F700CC0D48 /* Move.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE3F356C284C83F700CC0D48 /* Move.cpp */; };
+		BE3F357D284CA7D600CC0D48 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3F357C284CA7D600CC0D48 /* CoreFoundation.framework */; };
+		BE3F357F284CA89300CC0D48 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3F357E284CA89300CC0D48 /* OpenGL.framework */; };
+		BE3F3585284CD13F00CC0D48 /* TestPiece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE3F3583284CD13F00CC0D48 /* TestPiece.cpp */; };
+		BE7FB757284EC6E400D195AF /* Pawn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7FB755284EC6E400D195AF /* Pawn.cpp */; };
+		BE7FB75A284EC6EE00D195AF /* Rook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7FB758284EC6EE00D195AF /* Rook.cpp */; };
+		BE7FB75D284EC6FB00D195AF /* Knight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7FB75B284EC6FB00D195AF /* Knight.cpp */; };
+		BE7FB760284EC70C00D195AF /* Bishop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7FB75E284EC70C00D195AF /* Bishop.cpp */; };
+		BE7FB763284EC71500D195AF /* Queen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7FB761284EC71500D195AF /* Queen.cpp */; };
+		BE7FB766284EC71F00D195AF /* King.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7FB764284EC71F00D195AF /* King.cpp */; };
+		BED0A2D7284EB5D000303C05 /* Resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = BED0A2D6284EB5D000303C05 /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BE3F3553284C800500CC0D48 /* CopyFiles */ = {
+		BE3F3579284C937800CC0D48 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				BED0A2D7284EB5D000303C05 /* Resources in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE22575C284F323900F5359E /* Position.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Position.hpp; sourceTree = "<group>"; };
 		BE3F3555284C800500CC0D48 /* CppChess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppChess; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3F3558284C800500CC0D48 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BE3F3560284C803200CC0D48 /* Tile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tile.cpp; sourceTree = "<group>"; };
+		BE3F3561284C803200CC0D48 /* Tile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tile.hpp; sourceTree = "<group>"; };
+		BE3F3563284C804B00CC0D48 /* Piece.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Piece.cpp; sourceTree = "<group>"; };
+		BE3F3564284C804B00CC0D48 /* Piece.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Piece.hpp; sourceTree = "<group>"; };
+		BE3F3566284C806200CC0D48 /* Board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; };
+		BE3F3567284C806200CC0D48 /* Board.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Board.hpp; sourceTree = "<group>"; };
+		BE3F3569284C82DA00CC0D48 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		BE3F356A284C82DA00CC0D48 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		BE3F356C284C83F700CC0D48 /* Move.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Move.cpp; sourceTree = "<group>"; };
+		BE3F356D284C83F700CC0D48 /* Move.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Move.hpp; sourceTree = "<group>"; };
+		BE3F357A284C99E900CC0D48 /* CppChess.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CppChess.entitlements; sourceTree = "<group>"; };
+		BE3F357C284CA7D600CC0D48 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BE3F357E284CA89300CC0D48 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		BE3F3583284CD13F00CC0D48 /* TestPiece.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestPiece.cpp; sourceTree = "<group>"; };
+		BE3F3584284CD13F00CC0D48 /* TestPiece.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestPiece.hpp; sourceTree = "<group>"; };
+		BE7FB755284EC6E400D195AF /* Pawn.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pawn.cpp; sourceTree = "<group>"; };
+		BE7FB756284EC6E400D195AF /* Pawn.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pawn.hpp; sourceTree = "<group>"; };
+		BE7FB758284EC6EE00D195AF /* Rook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rook.cpp; sourceTree = "<group>"; };
+		BE7FB759284EC6EE00D195AF /* Rook.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rook.hpp; sourceTree = "<group>"; };
+		BE7FB75B284EC6FB00D195AF /* Knight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Knight.cpp; sourceTree = "<group>"; };
+		BE7FB75C284EC6FB00D195AF /* Knight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Knight.hpp; sourceTree = "<group>"; };
+		BE7FB75E284EC70C00D195AF /* Bishop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bishop.cpp; sourceTree = "<group>"; };
+		BE7FB75F284EC70C00D195AF /* Bishop.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bishop.hpp; sourceTree = "<group>"; };
+		BE7FB761284EC71500D195AF /* Queen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Queen.cpp; sourceTree = "<group>"; };
+		BE7FB762284EC71500D195AF /* Queen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queen.hpp; sourceTree = "<group>"; };
+		BE7FB764284EC71F00D195AF /* King.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = King.cpp; sourceTree = "<group>"; };
+		BE7FB765284EC71F00D195AF /* King.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = King.hpp; sourceTree = "<group>"; };
+		BED0A2D6284EB5D000303C05 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3F357D284CA7D600CC0D48 /* CoreFoundation.framework in Frameworks */,
+				BE3F357F284CA89300CC0D48 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +88,10 @@
 		BE3F354C284C800500CC0D48 = {
 			isa = PBXGroup;
 			children = (
+				BED0A2D6284EB5D000303C05 /* Resources */,
 				BE3F3557284C800500CC0D48 /* CppChess */,
 				BE3F3556284C800500CC0D48 /* Products */,
+				BE3F357B284CA7D600CC0D48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +106,68 @@
 		BE3F3557284C800500CC0D48 /* CppChess */ = {
 			isa = PBXGroup;
 			children = (
+				BE3F357A284C99E900CC0D48 /* CppChess.entitlements */,
+				BE3F3571284C858300CC0D48 /* Board */,
+				BE3F3570284C857800CC0D48 /* Move */,
+				BE3F356F284C856F00CC0D48 /* Piece */,
 				BE3F3558284C800500CC0D48 /* main.cpp */,
+				BE3F3569284C82DA00CC0D48 /* Game.cpp */,
+				BE3F356A284C82DA00CC0D48 /* Game.hpp */,
 			);
 			path = CppChess;
+			sourceTree = "<group>";
+		};
+		BE3F356F284C856F00CC0D48 /* Piece */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F3563284C804B00CC0D48 /* Piece.cpp */,
+				BE3F3564284C804B00CC0D48 /* Piece.hpp */,
+				BE3F3583284CD13F00CC0D48 /* TestPiece.cpp */,
+				BE3F3584284CD13F00CC0D48 /* TestPiece.hpp */,
+				BE7FB755284EC6E400D195AF /* Pawn.cpp */,
+				BE7FB756284EC6E400D195AF /* Pawn.hpp */,
+				BE7FB758284EC6EE00D195AF /* Rook.cpp */,
+				BE7FB759284EC6EE00D195AF /* Rook.hpp */,
+				BE7FB75B284EC6FB00D195AF /* Knight.cpp */,
+				BE7FB75C284EC6FB00D195AF /* Knight.hpp */,
+				BE7FB75E284EC70C00D195AF /* Bishop.cpp */,
+				BE7FB75F284EC70C00D195AF /* Bishop.hpp */,
+				BE7FB761284EC71500D195AF /* Queen.cpp */,
+				BE7FB762284EC71500D195AF /* Queen.hpp */,
+				BE7FB764284EC71F00D195AF /* King.cpp */,
+				BE7FB765284EC71F00D195AF /* King.hpp */,
+			);
+			path = Piece;
+			sourceTree = "<group>";
+		};
+		BE3F3570284C857800CC0D48 /* Move */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F356C284C83F700CC0D48 /* Move.cpp */,
+				BE3F356D284C83F700CC0D48 /* Move.hpp */,
+			);
+			path = Move;
+			sourceTree = "<group>";
+		};
+		BE3F3571284C858300CC0D48 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F3560284C803200CC0D48 /* Tile.cpp */,
+				BE3F3561284C803200CC0D48 /* Tile.hpp */,
+				BE3F3566284C806200CC0D48 /* Board.cpp */,
+				BE3F3567284C806200CC0D48 /* Board.hpp */,
+				BE22575C284F323900F5359E /* Position.hpp */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		BE3F357B284CA7D600CC0D48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE3F357E284CA89300CC0D48 /* OpenGL.framework */,
+				BE3F357C284CA7D600CC0D48 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,7 +179,7 @@
 			buildPhases = (
 				BE3F3551284C800500CC0D48 /* Sources */,
 				BE3F3552284C800500CC0D48 /* Frameworks */,
-				BE3F3553284C800500CC0D48 /* CopyFiles */,
+				BE3F3579284C937800CC0D48 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -119,7 +227,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7FB763284EC71500D195AF /* Queen.cpp in Sources */,
+				BE7FB75A284EC6EE00D195AF /* Rook.cpp in Sources */,
+				BE7FB760284EC70C00D195AF /* Bishop.cpp in Sources */,
+				BE3F356E284C83F700CC0D48 /* Move.cpp in Sources */,
+				BE7FB766284EC71F00D195AF /* King.cpp in Sources */,
+				BE7FB75D284EC6FB00D195AF /* Knight.cpp in Sources */,
+				BE3F3565284C804B00CC0D48 /* Piece.cpp in Sources */,
+				BE3F3585284CD13F00CC0D48 /* TestPiece.cpp in Sources */,
 				BE3F3559284C800500CC0D48 /* main.cpp in Sources */,
+				BE3F3568284C806200CC0D48 /* Board.cpp in Sources */,
+				BE3F3562284C803200CC0D48 /* Tile.cpp in Sources */,
+				BE3F356B284C82DA00CC0D48 /* Game.cpp in Sources */,
+				BE7FB757284EC6E400D195AF /* Pawn.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +358,17 @@
 		BE3F355D284C800500CC0D48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y383D7MFK7;
-				ENABLE_HARDENED_RUNTIME = YES;
+				CODE_SIGN_ENTITLEMENTS = CppChess/CppChess.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				OTHER_LDFLAGS = (
+					"-lSDL2_image-2.0.0",
+					"-lSDL2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,9 +376,17 @@
 		BE3F355E284C800500CC0D48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y383D7MFK7;
-				ENABLE_HARDENED_RUNTIME = YES;
+				CODE_SIGN_ENTITLEMENTS = CppChess/CppChess.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				OTHER_LDFLAGS = (
+					"-lSDL2_image-2.0.0",
+					"-lSDL2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
